@@ -185,3 +185,41 @@ p {
   background-repeat: no-repeat;
   background-image: url('https://images.unsplash.com/photo-1523289917096-b640e6e64f58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2982&q=80');
 }
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-list a {
+  text-decoration: none;
+  background: aliceblue;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.post-list a:hover {
+  background: lightsteelblue;
+  text-decoration: none;
+}
+
+.post {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+}
+
+.post h4 {
+  margin-top: 10px;
+}
+
+.post p {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.post-date {
+  font-style: italic;
+  text-align: center !important;
+}
