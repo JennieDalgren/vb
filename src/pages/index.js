@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <div className="wrapper">
+    <div className="wrapper" style={{ position: 'fixed' }}>
       <div className="section" style={{ textAlign: 'center' }}>
         <h1>Victoria Bätz</h1>
 
