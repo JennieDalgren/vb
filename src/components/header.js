@@ -1,37 +1,40 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React, { Component } from 'react'
+import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
+// import Image from './image'
 
 const activeStyle = {
-  paddingBottom: 10,
+  paddingBottom: 5,
   borderBottom: '2px solid black',
 }
 
-const Header = () => (
+const Header = props => (
   <div className="header">
-    <div className="menuWrapper">
-      <ul className="menu">
-        <li>
-          <Link to="/" activeStyle={activeStyle}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="/work" activeStyle={activeStyle}>
-            Work
-          </Link>
-        </li>
-        <li>
-          <Link to="/contact" activeStyle={activeStyle}>
-            Contact
-          </Link>
-        </li>
-        <li>
-          <Link to="/blog" activeStyle={activeStyle}>
-            Blog
-          </Link>
-        </li>
-      </ul>
-    </div>
+    <ul className="menu">
+      <li className="logoLink">
+        <Link to="/">Victoria</Link>
+      </li>
+      <li>
+        <Link to="/about" activeStyle={activeStyle}>
+          About
+        </Link>
+      </li>
+      <li>
+        <Link to="/work" activeStyle={activeStyle}>
+          Work
+        </Link>
+      </li>
+      <li>
+        <Link to="/contact" activeStyle={activeStyle}>
+          Contact
+        </Link>
+      </li>
+      <li>
+        <Link to="/blog" activeStyle={activeStyle}>
+          Blog
+        </Link>
+      </li>
+    </ul>
   </div>
 )
 

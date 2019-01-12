@@ -17,9 +17,9 @@
 //   <StaticQuery
 //     query={graphql`
 //       query {
-//         placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-//           childImageSharp {
-//             fluid(maxWidth: 300) {
+//         placeholderImage: file(relativePath: { eq: "vb-logo.png" }) {
+//           imageSharp {
+//             fluid(maxWidth: 500, quality: 100) {
 //               ...GatsbyImageSharpFluid
 //             }
 //           }
