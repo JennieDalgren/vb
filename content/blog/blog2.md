@@ -1,9 +1,10 @@
 ---
-title: 'My SECOND Blog post'
-description: Another
-date: '2018-12-07'
-image: ''
+path: /blog1
+date: '2018-12-06'
+title: My first Blog post
 ---
+
+![city by night](/assets/city.png)
 
 Don't build a website with last decade's tech. The future of the web is mobile,
 JavaScript and APIs—the
