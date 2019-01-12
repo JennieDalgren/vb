@@ -15,15 +15,15 @@ const WorkPage = () => (
       }}
     >
       <div
-        className="section"
+        className="section work-section"
         style={{
           textAlign: 'left',
-          width: 700,
+          width: 760,
           maxWidth: '100%',
           minHeight: '260px',
         }}
       >
-        <h1>This is what I been working with</h1>
+        <h1>Work with me.</h1>
         <p>
           I have always had a passion for food. I come from a family that you
           could call foodies long before the word was invented. Growing up I
@@ -47,7 +47,10 @@ const WorkPage = () => (
         </p>
         <p>
           If you want to read more about my work experience, please have a look
-          at my LinkedIn profile.
+          at my{' '}
+          <a href="https://www.linkedin.com/in/victoriabatz/" target="_blank">
+            LinkedIn profile.
+          </a>
         </p>
         <p>
           My offer as a is wide, but here is a breakdown to make it more
@@ -55,34 +58,35 @@ const WorkPage = () => (
         </p>
         <ul className="workList">
           <li>
-            <span>- Marketing and Social Media Management. </span>I can offer
-            your company an overview and an adapted strategy for your brand. I
-            also provide services like community manager, content creation (text
-            and photos) and curation, posting, etc.
+            <span>- Marketing and Social Media Management. </span>
+            <br />I can offer your company an overview and an adapted strategy
+            for your brand. I also provide services like community manager,
+            content creation (text and photos) and curation, posting, etc.
           </li>
           <li>
-            <span>- Text production. </span>Articles, interviews or blogposts on
-            Travel, Spain, Food, Health and Wellbeing as well as Restaurant
-            reviews. My hunger for creating texts related to my passions has no
-            limit.
+            <span>- Text production. </span>
+            <br />
+            Articles, interviews or blogposts on Travel, Spain, Food, Health and
+            Wellbeing as well as Restaurant reviews. My hunger for creating
+            texts related to my passions has no limit.
           </li>
           <li>
-            <span>- Food and cultural tours around Barcelona and Spain.</span>{' '}
+            <span>- Food and cultural tours around Barcelona and Spain.</span>
+            <br />
             Learn about the culture, the mind-blowing history and most of all
             the beauty of the Spanish cuisine. Spain is the home of chefs like
             Ferran Adria but also the home of simple but delicious dishes like
             tomato bread and deep-fried anchovies.
           </li>
           <li>
-            {' '}
             <span>- Plan your visit to Barcelona</span>
           </li>
           <li>
-            <span>- Breaking the market barriers.</span> I have unique insight
-            to the markets in Sweden and Spain and can offer cultural insights
-            on both markets. If you are a Swedish company looking to enter Spain
-            or a Spanish company dying to enter the Swedish market, donate
-            hesitate to contact me.
+            <span>- Breaking the market barriers.</span>
+            <br />I have unique insight to the markets in Sweden and Spain and
+            can offer cultural insights on both markets. If you are a Swedish
+            company looking to enter Spain or a Spanish company dying to enter
+            the Swedish market, donate hesitate to contact me.
           </li>
         </ul>
       </div>
