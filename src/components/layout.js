@@ -26,6 +26,10 @@ const Layout = ({ children }) => (
       ]}
     >
       <html lang="en" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Crimson+Text|Poppins"
+        rel="stylesheet"
+      />
     </Helmet>
 
     <div
