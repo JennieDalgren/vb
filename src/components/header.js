@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 
 const activeStyle = {
   paddingBottom: 5,
-  borderBottom: '2px solid black',
+  borderBottom: '1px solid black',
 }
 
 const Header = props => (
@@ -21,7 +21,7 @@ const Header = props => (
       </li>
       <li>
         <Link to="/work" activeStyle={activeStyle}>
-          Work
+          Collaborate
         </Link>
       </li>
       <li>

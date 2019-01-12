@@ -8,12 +8,7 @@ const BlogPage = props => {
   const postList = props.data.allMarkdownRemark
   return (
     <Layout>
-      <div
-        className="wrapper"
-        style={{
-          backgroundImage: 'none',
-        }}
-      >
+      <div className="wrapper">
         <div className="section" style={{ textAlign: 'center' }}>
           <h1>Here is my bloggy blog blog</h1>
           <div className="post-list">

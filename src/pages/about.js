@@ -7,29 +7,30 @@ const ContactPage = () => (
     <div
       className="wrapper"
       style={{
-        // position: 'fixed',
-        backgroundColor: '#f9f9f9',
+        flexDirection: 'row',
+        alignItems: 'flex-start',
+        justifyContent: 'space-around',
+        backgroundColor: '##f4f4f4',
       }}
     >
-      <div>
-        <img src="../images/vb-logo.png" />
-      </div>
+      {/* <div style={{ margin: '20px 0' }}>
+        <img src="/assets/city.png" />
+      </div> */}
       <div
         className="section"
         style={{
           textAlign: 'left',
-          alignSelf: 'flex-start',
-          width: 600,
+          width: 700,
           maxWidth: '100%',
           minHeight: '260px',
         }}
       >
         <h1 style={{ color: '#fff' }}>Who is Victoria Bätz?</h1>
         <p>
-          <strong>Why are you so fascinated by Spain?</strong> <br />I often get
-          this question and I think I give different answers each time. At the
-          bottom of it I think it’s my love for the way Spaniards view life. I
-          envy their spontaneity, their love for the good life, how they see the
+          <em>Why are you so fascinated by Spain?</em> <br />I often get this
+          question and I think I give different answers each time. At the bottom
+          of it I think it’s my love for the way Spaniards view life. I envy
+          their spontaneity, their love for the good life, how they see the
           beauty in the little things, how they can make any meal feel lika a
           feast and that (almost) no-one is a stranger. I love that the meals
           are the most important events of the day and that they have invented
