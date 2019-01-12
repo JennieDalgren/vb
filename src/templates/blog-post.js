@@ -7,9 +7,14 @@ function BlogPost(props) {
   const { title } = post.frontmatter
   return (
     <Layout>
-      <div className="section">
-        <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div
+        className="wrapper"
+        style={{ alignItems: 'flex-start', justifyContent: 'space-around' }}
+      >
+        <div className="section" style={{ width: '75%', margin: 0 }}>
+          <h1>{title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        </div>
       </div>
     </Layout>
   )

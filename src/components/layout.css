@@ -215,9 +215,9 @@ p {
 }
 
 .post {
-  width: 250px;
-  height: 250px;
-  padding: 20px;
+  width: 320px;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .post h4 {
@@ -260,4 +260,53 @@ p {
   font-family: 'Poppins';
   font-size: 14px;
   letter-spacing: 0.6px;
+}
+
+.sidebar {
+  margin: 10px 0;
+  max-width: 25%;
+}
+
+.sidebar div {
+  width: 98%;
+  height: 100%;
+  margin: 16px 0;
+  padding-left: 16px;
+}
+
+.sidebar .link {
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  text-decoration: none;
+
+  width: 100%;
+  height: fit-content;
+}
+
+.sidebar .link:hover {
+  background: #e0e9ef;
+}
+
+.sidebar .sidebar-date {
+  font-size: 8px;
+  margin: 0;
+  padding: 0;
+  line-height: unset;
+}
+
+.sidebar .sidebar-title {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  line-height: unset;
+}
+
+.sidebar .sidebar-excerpt {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  line-height: unset;
+  text-align: justify;
+  line-height: 20px;
+  text-transform: none;
 }
